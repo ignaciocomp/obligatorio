@@ -15,6 +15,7 @@
 .clearfix {
   display: inline-block;
 }
+
 /* start commented backslash hack \*/
 
 * html .clearfix {
@@ -24,12 +25,13 @@
 .clearfix {
   display: block;
 }
+
 /* close commented backslash hack */
 
 body {
   font-family: 'Roboto Flex', sans-serif;
   background-color: #48B9A9;
-} 
+}
 
 h1,
 h2,
@@ -39,35 +41,38 @@ h6 {
   font-family: 'Roboto Flex', sans-serif;
 }
 
-h2{
-  width:60%;
-  float:left;
+h2 {
+  width: 60%;
+  float: left;
 }
 
-h4{
-  float:right;
-  font-weight:400;
-  width:30%;
-  margin-top:26px;
-  text-align:right;
+h4 {
+  float: right;
+  font-weight: 400;
+  width: 30%;
+  margin-top: 26px;
+  text-align: right;
 }
 
-table, th, td{
-  border-collapse:collapse;
+table,
+th,
+td {
+  border-collapse: collapse;
   border: #000 1px solid;
-  padding:5px;
-  background-color:#fff;
+  padding: 5px;
+  background-color: #fff;
 }
 
-table img, td>input[type=button]{
-  width:100px;
-  min-width:50px;
+table img,
+td>input[type=button] {
+  width: 100px;
+  min-width: 50px;
 }
 
-th{
-  background-color:#303036;
-  color:#fff;
-  font-weight:normal;
+th {
+  background-color: #303036;
+  color: #fff;
+  font-weight: normal;
 }
 
 #aux a {
@@ -80,26 +85,69 @@ th{
   margin: 0 auto;
 }
 
-label{
+#contenedor1 {
+  width: 400px;
+  position: relative;
+  background-color: #6C66AC;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#btnVolver {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+#contenedor1>div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  /* Puedes ajustar el ancho según tus necesidades */
+}
+
+input[type="text"] {
+  width: 200px;
+  /* Puedes ajustar el ancho según tus necesidades */
+}
+
+#btnIngresar {
+  margin-top: 20px;
+}
+
+label {
   min-width: 80px;
-  text-align:left;
-  display:inline-block;
-  vertical-align:top;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
 }
 
-.duracion{
-  float:right;
+.duracion {
+  float: right;
 }
 
-textarea{
-  min-height:80px;
+textarea {
+  min-height: 80px;
 }
 
 p.ver-mas {
-    text-align: center;
-    cursor: pointer;
-    font-weight: 700;
-    color: #FC5130;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  color: #FC5130;
 }
 
 #logo {
@@ -157,8 +205,8 @@ p.ver-mas {
   float: left;
 }
 
-#contenido img{
-  max-width:100%;
+#contenido img {
+  max-width: 100%;
   margin-bottom: 1%;
 }
 
@@ -183,7 +231,8 @@ p.ver-mas {
 }
 
 input,
-select, textarea {
+select,
+textarea {
   background-color: #303036;
   color: #FFFAFF;
   border: 1px solid #ccc;
@@ -191,7 +240,7 @@ select, textarea {
   font-family: 'Roboto Flex', sans-serif;
   min-width: 200px;
   border-radius: 5px;
-  font-size:14px;
+  font-size: 14px;
 }
 
 input[type="button"] {
