@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    
+    <div id="contenedor1">
+        <h1>CENSO</h1>
+        <div id="nombre">
+            <label for="txtNombre">Nombre y Apellido:</label>
+            <input type="text" id="txtNombre">
+        </div>
+        <div id="edad">
+            <label for="txtEdad">Edad:</label>
+            <input type="text" id="txtEdad">
+        </div>
+        <div id="cedula">
+            <label for="txtCedula">Cedula de Identidad:</label>
+            <input type="text" id="txtCedula">
+
+        <div id="departamento">
+            <label for="slcDepartamento">Seleccione departamento:</label>
+        <select id="slcDepartamento">
+          <option value="error">Seleccione...</option>
+          <option value="ar">Artigas</option>
+          <option value="ca">Canelones</option>
+          <option value="ce">Cerro Largo</option>
+          <option value="co">Colonia</option>
+          <option value="du">Durazno</option>
+          <option value="flo">Flores</option>
+          <option value="florida">Florida</option>
+          <option value="lav">Lavalleja</option>
+          <option value="lav">Maldonado</option>
+          <option value="lav">Montevideo</option>
+          <option value="lav">Paysandú</option>
+          <option value="lav">Río Negro</option>
+          <option value="lav">Rivera</option>
+          <option value="lav">Rocha</option>
+          <option value="lav">Salto</option>
+          <option value="lav">San José</option>
+          <option value="lav">Soriano</option>
+          <option value="lav">Tacuarembó</option>
+          <option value="lav">Treinta y Tres</option>
+        </select>
+           
+        </div>
+
+        <div id="ocupacion">
+            <select id="slcOcupacion">Seleccione ocupacion:
+                <option value="error">Seleccione...</option>
+                <option value="dep">Dependiente</option>
+                <option value="indep">Independiente</option>
+                <option value="est">Estudiante</option>
+                <option value="notra">No trabaja</option>
+              </select>
+        </div>
+        <input type="button" value="Finalizar" id="btnFinalizar">
+        <button id="btnVolverCenso">Volver</button> <!--Arreglar el boton-->
+    </div>
+    <script src="codigo.js"></script>
+    <script src="censo.js"></script>
+        
+      </div>
+</body>
+</html>
