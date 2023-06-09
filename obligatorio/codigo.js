@@ -21,4 +21,3 @@ document.getElementById('btnIngresar').addEventListener('click', function() {
   document.getElementById('btnVolver').addEventListener('click', function() {
     window.location.href = 'hola.html'; // Reemplaza 'pagina_principal.html' con la URL de tu página principal
   });
-  
