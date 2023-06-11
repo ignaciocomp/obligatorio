@@ -53,9 +53,9 @@ for (let i = 0; i < departamentos.length; i++) {
     departamentoSelect.appendChild(option); //se inserta el elemento option como una nueva opción dentro del menú desplegable, y se repite hasta terminar el bucle
 }
 }
-// Lógica de validación de cédula
+
 function validarCedula(cedula) {
-return true; 
+return true; // Lógica de validación de cédula
 }
 
 function esCedulaDuplicada(cedula) {

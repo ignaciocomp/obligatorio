@@ -69,7 +69,7 @@ function tomarValores() {
   let nombre = document.querySelector("#txtNombre").value;
   let usuario = document.querySelector("#txtUsuario").value;
   let contraseña = document.querySelector("#txtContraseña").value;
-  
+
   //aca se verifica que los campos no esten vacios y si los estan, te tira un alert para q los llenes
   if (nombre.trim() === '') {
     alert("El campo de nombre es obligatorio.");
