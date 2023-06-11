@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="IngresarDatos.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Ingresar datos de una persona censada.</h1>
+
+        <div class="form-group">
+            <label for="nombre">Nombre y apellido:</label>
+            <input type="text" id="nombre">
+        </div>
+
+        <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido">
+        </div>
+
+        <div class="form-group">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" min="0" max="130">
+        </div>
+
+        <div class="form-group">
+            <label for="cedula">Cédula:</label>
+            <input type="text" id="cedula">
+        </div>
+
+        <div class="form-group">
+            <label for="departamento">Departamento de residencia:</label>
+            <select id="departamento">
+                <option value="">Seleccione...</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="ocupacion">Ocupación:</label>
+            <select id="ocupacion">
+                <option value="">Seleccione...</option>
+                <option value="dependiente">Dependiente</option>
+                <option value="independiente">Independiente</option>
+                <option value="estudiante">Estudiante</option>
+                <option value="no trabaja">No trabaja</option>
+            </select>
+        </div>
+
+        <div class="buttons">
+            <button id="btnGuardar">Guardar</button>
+            <button id="btnVolver">Volver</button>
+        </div>
+    </div>
+
+    <script src="IngresarDatos.js"></script>
+</body>
+
+
+</html>

@@ -5,23 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="Registrarse.css">
 </head>
 
 <body>
-    <h1>Registro de Censista</h1>
-    <label for="txtNombre">Nombre:</label>
-    <input type="text" id="txtNombre"><br>
-
-    <label for="txtUsuario">Nombre de usuario:</label>
-    <input type="text" id="txtUsuario"><br>
-
-    <label for="txtContraseña">Contraseña:</label>
-    <input type="password" id="txtContraseña"><br>
-
-    <button id="btnRegistrar">Registrar</button>
-
-    <script src="register.js"></script>
+    <div id="contenedor">
+        <div id="contenedor1">
+            <h1>Registro de Censista</h1>
+            <div id="nombre">
+                <label for="txtNombre">Nombre:</label>
+                <input type="text" id="txtNombre">
+            </div><br>
+            <div id="usuario">
+                <label for="txtUsuario">Nombre de usuario:</label>
+                <input type="text" id="txtUsuario">
+            </div><br>
+            <div id="contraseña">
+                <label for="txtContraseña">Contraseña:</label>
+                <input type="password" id="txtContraseña">
+            </div><br>
+            <button id="btnRegistrar">Registrar</button>
+            <button id="btnVolver">Volver</button>
+        </div>
+    </div>
+    <script src="Registrarse.js"></script>
 </body>
+
 
 </html>

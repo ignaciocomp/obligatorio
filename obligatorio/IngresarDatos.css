@@ -1,0 +1,61 @@
+#container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #6C66AC;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #303036;
+    color: #FFFAFF;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #303036;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button#btnGuardar {
+    margin-right: 10px;
+}
+
+button#btnVolver {
+    background-color: #6C66AC;
+}
+
+button:disabled {
+    background-color: #9696a1;
+    cursor: not-allowed;
+}
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #48B9A9;
+}

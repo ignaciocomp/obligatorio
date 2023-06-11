@@ -1,0 +1,53 @@
+#contenedor1 {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #6C66AC;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    color: #FFFFFF;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="button"],
+button {
+    padding: 10px 20px;
+    background-color: #303036;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button#btnVolver {
+    background-color: #6C66AC;
+}
+
+button:disabled {
+    background-color: #9696a1;
+    cursor: not-allowed;
+}
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #48B9A9;
+}
